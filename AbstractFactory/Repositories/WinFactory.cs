@@ -3,6 +3,7 @@ using AbstractFactory.Models.Windows;
 
 namespace AbstractFactory.Factories
 {
+    // Each concrete factory has a corresponding product variant.
     public class WinFactory : IFactoryBase
     {
         public IButtonBase CreateButton()

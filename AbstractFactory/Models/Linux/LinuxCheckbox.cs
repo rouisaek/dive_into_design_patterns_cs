@@ -6,6 +6,7 @@ namespace AbstractFactory.Models.Linux
     {
         public void Paint()
         {
+            // Render a checkbox in Linux style.
             Console.WriteLine("Render a checkbox in Linux style.");
         }
     }

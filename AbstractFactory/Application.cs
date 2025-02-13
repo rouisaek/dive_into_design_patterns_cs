@@ -2,6 +2,11 @@ using AbstractFactory.Interfaces;
 
 namespace AbstractFactory
 {
+    // The client code works with factories and products only
+    // through abstract types: IFactoryBase, IButtonBase and ICheckboxBase. This
+    // lets you pass any factory or product subclass to the client
+    // code without breaking it.
+
     /// <summary>
     /// Application style based on OS.
     /// </summary>

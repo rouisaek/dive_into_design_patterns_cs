@@ -6,7 +6,8 @@ namespace AbstractFactory.Models.Windows
     {
         public void Paint()
         {
-            Console.WriteLine("Render a checkbox in Windows style.");
+            // Render a button in Windows style.
+            Console.WriteLine("Render a button in Windows style.");
         }
     }
 }
