@@ -2,9 +2,9 @@
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{8FC1E637-63CC-6664-8009-47A487A2AF0F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "Creational\AbstractFactory\AbstractFactory.csproj", "{8FC1E637-63CC-6664-8009-47A487A2AF0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{7D11CCEE-ED73-4772-83A5-209C02D10F42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "Creational\FactoryMethod\FactoryMethod.csproj", "{7D11CCEE-ED73-4772-83A5-209C02D10F42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
