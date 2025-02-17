@@ -2,7 +2,6 @@ using Builder.Interfaces;
 using Builder.Models;
 
 namespace Builder.Repositories;
-
 public class RobotBuilder : IBuilder
 {
     private Robot _robot;
@@ -24,33 +23,39 @@ public class RobotBuilder : IBuilder
         return robot;
     }
 
-    public void AddCore(Core core)
+    public IBuilder SetShell(Shell core)
     {
         _robot.Core = core;
+        return this;
     }
 
-    public void AddHead(Head head)
+    public IBuilder SetHead(Head head)
     {
         _robot.Head = head;
+        return this;
     }
 
-    public void AddLeftArm()
+    public IBuilder SetLeftArm(Arm arm)
     {
-
+        _robot.LeftArm = arm;
+        return this;
     }
 
-    public void AddLeftLeg()
+    public IBuilder SetRightArm(Arm arm)
     {
-
+        _robot.RightArm = arm;
+        return this;
     }
 
-    public void AddRightArm()
+    public IBuilder SetLeftLeg(Leg leg)
     {
-
+        _robot.LeftLeg = leg;
+        return this;
     }
 
-    public void AddRightLeg()
+    public IBuilder SetRightLeg(Leg leg)
     {
-
+        _robot.RightLeg = leg;
+        return this;
     }
 }

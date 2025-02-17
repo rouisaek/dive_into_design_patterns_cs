@@ -1,7 +1,7 @@
 
 namespace Builder.Models;
 
-public class Core
+public class Shell
 {
     public EShape Shape { get; set; }
 
@@ -9,7 +9,7 @@ public class Core
     public int Defence { get; private set; }
     public int Vertices { get; private set; }
 
-    public Core(EShape shape)
+    public Shell(EShape shape)
     {
         Shape = shape;
         InitializeCore();

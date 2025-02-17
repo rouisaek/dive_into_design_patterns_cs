@@ -7,14 +7,15 @@ public class Application
 {
     public static Robot BuilderRobot()
     {
-        RobotBuilder builder = new();
+        var builder = new RobotBuilder();
 
-        builder.AddCore(new Core(EShape.Square));
-        builder.AddHead(new() { Shape = EShape.Circle });
-        builder.AddLeftArm();
-        builder.AddRightArm();
-        builder.AddRightLeg();
-        builder.AddLeftLeg();
+        builder
+        .SetShell(new(EShape.Triangle))
+        .SetHead(new() { Shape = EShape.Square })
+        .SetLeftArm(new())
+        .SetRightArm(new())
+        .SetRightLeg(new())
+        .SetLeftLeg(new());
 
         return builder.Build();
     }
