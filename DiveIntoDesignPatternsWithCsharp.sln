@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Creational\Build
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Creational\Prototype\Prototype.csproj", "{5A012C98-C367-498B-A15B-C7FF0C6A1537}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Creational\Singleton\Singleton.csproj", "{20539CC6-39BA-4D68-A171-E2A060FEE44D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,14 @@ Global
 		{5A012C98-C367-498B-A15B-C7FF0C6A1537}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A012C98-C367-498B-A15B-C7FF0C6A1537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A012C98-C367-498B-A15B-C7FF0C6A1537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27D8B578-7953-4A26-801A-FBA40DB8879E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D8B578-7953-4A26-801A-FBA40DB8879E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D8B578-7953-4A26-801A-FBA40DB8879E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D8B578-7953-4A26-801A-FBA40DB8879E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20539CC6-39BA-4D68-A171-E2A060FEE44D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20539CC6-39BA-4D68-A171-E2A060FEE44D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20539CC6-39BA-4D68-A171-E2A060FEE44D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20539CC6-39BA-4D68-A171-E2A060FEE44D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +54,7 @@ Global
 		{38A650F3-FBC2-474B-85A0-3DEF16A5E994} = {F5D86201-FB5F-47D5-9D08-D3D89B9DD8B8}
 		{95575160-E0AE-47F2-A1C5-F52A5B3205C4} = {F5D86201-FB5F-47D5-9D08-D3D89B9DD8B8}
 		{5A012C98-C367-498B-A15B-C7FF0C6A1537} = {F5D86201-FB5F-47D5-9D08-D3D89B9DD8B8}
+		{20539CC6-39BA-4D68-A171-E2A060FEE44D} = {F5D86201-FB5F-47D5-9D08-D3D89B9DD8B8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E018824-F9B7-4999-93F3-05097EBF1339}
