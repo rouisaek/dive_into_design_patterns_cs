@@ -1,11 +1,11 @@
 using Adapter;
 
 
-Ocean ocean = new Ocean(new Boat("Stormrazor 621"));
+var ocean = new Ocean(new Boat("Storm Razor 621"));
 Console.WriteLine(ocean.GetOceanTransportName());
 
-Sky sky = new Sky(new Plane("Skydiver 462"));
+var sky = new Sky(new Plane("Skydiver 462"));
 Console.WriteLine(sky.GetSkyTransportName());
 
-PlaneAdapter seaplane = new PlaneAdapter(new Boat("Sky Shark Hunter X13"));
+var seaplane = new PlaneAdapter(new Boat("Sky Shark Hunter X13"));
 Console.WriteLine(seaplane.GetName());

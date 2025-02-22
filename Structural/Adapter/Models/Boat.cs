@@ -2,7 +2,7 @@ namespace Adapter;
 
 public class Boat : IOceanTransport
 {
-    public string Name { get; private set; }
+    private string Name { get; set; }
     public Boat(string name)
     {
         Name = name;

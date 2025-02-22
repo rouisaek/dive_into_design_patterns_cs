@@ -2,7 +2,7 @@ namespace Adapter;
 
 public class Plane : IAirTransport
 {
-    public string Name { get; private set; }
+    private string Name { get; set; }
     public Plane(string name)
     {
         Name = name;
