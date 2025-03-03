@@ -8,19 +8,24 @@ namespace Bridge.Models
         {
             Console.Clear();
             int loop = 0;
-            Console.CursorVisible = false;
             while (loop < 5)
             {
-                for (int i = 0; i < 5; i++)
-                {
-                    Console.Write(".");
-                    Thread.Sleep(200);
-                }
-                Console.Clear();
+                Console.SetCursorPosition(0, 0);
+                Console.Write('│');
+                Thread.Sleep(100);
+                Console.SetCursorPosition(0, 0);
+                Console.Write('╱');
+                Thread.Sleep(100);
+                Console.SetCursorPosition(0, 0);
+                Console.Write('─');
+                Thread.Sleep(100);
+                Console.SetCursorPosition(0, 0);
+                Console.Write('╲');
+                Thread.Sleep(100);
                 loop++;
             }
+            Console.Clear();
             ShowSystemInformation();
-            Console.CursorVisible = true;
         }
 
         private void ShowSystemInformation()
